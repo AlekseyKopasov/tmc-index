@@ -53,6 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  text-align: center;
 }
 
 .tmc__controls-top,
@@ -100,7 +101,7 @@ body {
 
 .tmc__control:last-child {
   grid-column: 1 / 3;
-  padding: 24px;
+  padding: 32px;
   height: auto;
   width: 100%;
   flex-direction: row;
@@ -133,7 +134,7 @@ body {
 
 .tmc__controls-bottom .tmc__control {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #710303;
 }
 
 .tmc__controls-bottom .tmc__control:hover {
